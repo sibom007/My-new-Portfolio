@@ -3,7 +3,7 @@ import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="md:mt-48">
+    <div className="">
       <footer>
         <div className="grid grid-cols-1 md:grid-cols-2  bg-neutral text-neutral-content">
           <div className="bg-[#1F2937] p-20 space-y-2">
