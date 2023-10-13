@@ -1,0 +1,40 @@
+.bode{
+    width: 400px;
+    height: 712px;
+    box-shadow: 14px 12px 20px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bode::before{
+    content: "";
+    background-image: conic-gradient(#00aaff,#ffff,#00aaff,#dbf800,#00aaff 20deg, transparent 120deg);
+    width: 300%;
+    height: 500%;
+    position: absolute;
+    animation: rotate 3s linear infinite;
+}
+.bode::after{
+    content: "Animation";
+    width: 95%;
+    height: 97%;
+    background-image: url(../../../../public/project\ photo\ 3.jpg);
+    
+    position: absolute;
+    border-radius: 10px;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(-360deg);
+    }
+  
+    
+}
