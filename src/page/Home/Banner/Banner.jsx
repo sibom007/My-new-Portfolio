@@ -1,6 +1,4 @@
 import React from "react";
-import Banners from "../../../../public/Banner1.jpg";
-import banner2 from "../../../../public/project photo 3.jpg";
 import { FaGithubAlt,FaFacebook,FaLinkedin,FaReadme } from "react-icons/fa6";
 import "./Banner.css";
 import { Link } from "react-router-dom";
@@ -17,7 +15,7 @@ const Banner = () => {
           <Link className="flex items-center space-x-2 text-2xl border-4 rounded-md p-2 border-white border-opacity-25 shadow-md hover:bg-slate-400 hover:bg-opacity-20 duration-500"><FaGithubAlt /><span>GitHub</span></Link>
           <Link className="flex items-center space-x-2 text-2xl border-4 rounded-md p-2 border-white border-opacity-25 shadow-md hover:bg-slate-400 hover:bg-opacity-20 duration-500"><FaFacebook /><span>Facebook</span></Link>
           <Link className="flex items-center space-x-2 text-2xl border-4 rounded-md p-2 border-white border-opacity-25 shadow-md hover:bg-slate-400 hover:bg-opacity-20 duration-500"><FaLinkedin /><span>Linkedin</span></Link>
-          <button className="flex items-center space-x-2 text-2xl border-4 rounded-md p-2 border-white border-opacity-25 shadow-md hover:bg-slate-400 hover:bg-opacity-20 duration-500"><FaReadme /><span></span>Resume</button>
+          <button className="flex items-center space-x-2 text-2xl border-4 rounded-md p-2 border-white border-opacity-25 shadow-md hover:bg-slate-400 hover:bg-opacity-20 duration-500"><FaReadme /><span>Resume</span></button>
         </ul>
       </div>
       <div className="bode mt-10 ">
